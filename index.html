@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#080808}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding-left:40px;padding-right:40px;box-sizing:border-box}
+.grid2{display:grid;grid-template-columns:repeat(2, minmax(0, 1fr));gap:32px}
+.reels{display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));gap:20px}
+.card{display:block;background:#111111;border:1px solid rgba(255,255,255,0.06);border-radius:28px;padding:18px 18px 26px;box-shadow:0 30px 60px -30px rgba(0,0,0,0.8);transition:transform .35s ease, border-color .35s ease}
+.card:hover{transform:translateY(-4px);border-color:rgba(255,255,255,0.14)}
+.thumb{position:relative;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.thumb .lbl{font-size:13px;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.75);font-weight:500}
+.arrow{position:absolute;left:16px;bottom:16px;width:40px;height:40px;border-radius:999px;background:rgba(0,0,0,0.75);display:flex;align-items:center;justify-content:center;color:#fff}
+.chip{display:inline-flex;align-items:center;min-height:30px;padding:0 12px;border-radius:999px;background:#1B1B1B;border:1px solid rgba(255,255,255,0.05);font-size:12.5px;color:#BDBDBD}
+.pill{display:inline-flex;align-items:center;gap:10px;min-height:56px;padding:0 28px;border-radius:999px;font-size:16px;font-weight:500}
+.ticker{display:flex;flex-wrap:wrap;justify-content:space-between;gap:20px 40px;font-size:22px;font-weight:600;letter-spacing:-0.01em;color:#5C5C5C}
+.fan{display:flex;justify-content:center;align-items:center;padding:20px 0 8px}
+.fan > div{width:200px;aspect-ratio:3 / 4;border-radius:20px;border:1px solid rgba(255,255,255,0.08);box-shadow:0 24px 48px -12px rgba(0,0,0,0.9);position:relative;overflow:hidden;margin:0 -14px}
+.fan span.n{position:absolute;left:18px;bottom:44px;font-size:13px;color:rgba(255,255,255,0.6)}
+.fan span.t{position:absolute;left:18px;bottom:18px;font-size:17px;font-weight:500;color:#fff}
+@media (max-width: 900px){
+.wrap{padding-left:16px;padding-right:16px}
+.grid2,.reels{grid-template-columns:repeat(1, minmax(0, 1fr))}
+.heroname{font-size:52px !important}
+.ticker{font-size:17px;justify-content:flex-start}
+.fan > div{width:120px;margin:0 -10px}
+.fan span.t{font-size:13px}
+.closer{font-size:30px !important}
+}
+</style>
+<title>Beluchi Nwokolo Portfolio</title>
+</head>
+<body>
+<div style="background: radial-gradient(900px 520px at 78% -8%, rgba(169,139,255,0.13), transparent 70%), radial-gradient(700px 500px at 0% 40%, rgba(255,255,255,0.035), transparent 70%), #080808; color: #F2F2F2; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 17px; line-height: 1.65; min-height: 100vh; overflow: hidden">
+
+<div class="wrap" style="padding-top: 22px; position: sticky; top: 0; z-index: 5">
+<header style="display: flex; justify-content: space-between; align-items: center; gap: 16px; min-height: 60px; padding: 0 10px 0 22px; border-radius: 999px; background: rgba(14,14,14,0.78); border: 1px solid rgba(255,255,255,0.07); backdrop-filter: blur(14px)">
+<a href="#top" style="display: inline-flex; align-items: center; gap: 10px; font-size: 20px; font-weight: 500; letter-spacing: -0.02em">
+<span style="width: 26px; height: 26px; border-radius: 999px; background: linear-gradient(145deg, #E9E9E9, #8C8C8C); display: inline-block"></span>
+Beluchi</a>
+<nav aria-label="Main" style="display: flex; align-items: center; gap: 4px; font-size: 14px; color: #BDBDBD">
+<a href="#work" style="padding: 10px 14px">Work</a>
+<a href="#reels" style="padding: 10px 14px">Reels</a>
+<a href="#about" style="padding: 10px 14px">About</a>
+<a href="[RESUME PDF LINK]" style="padding: 10px 18px; border-radius: 999px; background: #F2F2F2; color: #0A0A0A; font-weight: 500">Resume</a>
+</nav>
+</header>
+</div>
+
+<section id="top" class="wrap" style="padding-top: 72px; padding-bottom: 56px">
+<span style="display: inline-flex; align-items: center; gap: 10px; min-height: 36px; padding: 0 16px; border-radius: 999px; background: #141414; border: 1px solid rgba(255,255,255,0.07); font-size: 14px; color: #E6E6E6">
+<span style="width: 8px; height: 8px; border-radius: 999px; background: #A98BFF; box-shadow: 0 0 12px #A98BFF"></span>
+3D Animator · Cincinnati, OH</span>
+<div style="display: flex; align-items: center; gap: 28px; flex-wrap: wrap; margin-top: 28px">
+<h1 class="heroname" style="margin: 0; font-weight: 400; font-size: 96px; line-height: 1; letter-spacing: -0.045em">Beluchi <span style="color: #8A8A8A">Nwokolo</span></h1>
+<a href="#reels" aria-label="Watch the reel" style="width: 64px; height: 64px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.12); background: #101010; display: inline-flex; align-items: center; justify-content: center">
+<svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a>
+</div>
+<p style="margin: 28px 0 0; max-width: 560px; font-size: 18px; color: #A8A8A8">I animate characters that feel like they're thinking, and I build the rest of the shot too: models, textures, sims and comp. SCAD Animation, class of 2026.</p>
+</section>
+
+<section class="wrap" style="padding-bottom: 72px">
+<div class="ticker" aria-label="Tools">
+<span>Maya</span><span>Blender</span><span>Arnold</span><span>Substance</span><span>ZBrush</span><span>After Effects</span><span>Unreal</span>
+</div>
+</section>
+
+<section id="work" class="wrap" style="padding-bottom: 96px">
+<div class="grid2">
+<a class="card" href="laika-howl.html">
+<div class="thumb" style="aspect-ratio: 4 / 3; background: radial-gradient(circle at 50% 35%, #6E54C9, #1B1338 70%)"><span class="lbl">Still · Laika Howl</span>
+<span class="arrow"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></span></div>
+<h3 style="margin: 22px 0 12px; font-weight: 500; font-size: 22px; letter-spacing: -0.015em">Laika Howl</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 6px"><span class="chip">Capstone short</span><span class="chip">Character</span><span class="chip">Festival selection</span></div>
+</a>
+<a class="card" href="dove-x-crumbl.html">
+<div class="thumb" style="aspect-ratio: 4 / 3; background: radial-gradient(circle at 50% 40%, #C79A6A, #3A2414 72%)"><span class="lbl">Still · cauldron shot</span>
+<span class="arrow"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></span></div>
+<h3 style="margin: 22px 0 12px; font-weight: 500; font-size: 22px; letter-spacing: -0.015em">Dove x Crumbl</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 6px"><span class="chip">Spec ad</span><span class="chip">Simulation</span><span class="chip">Claymation look</span></div>
+</a>
+<a class="card" href="sprite-cranberry.html">
+<div class="thumb" style="aspect-ratio: 4 / 3; background: radial-gradient(circle at 50% 40%, #C2304A, #3B0B16 72%)"><span class="lbl">Still · paper can</span>
+<span class="arrow"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></span></div>
+<h3 style="margin: 22px 0 12px; font-weight: 500; font-size: 22px; letter-spacing: -0.015em">Sprite Cranberry</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 6px"><span class="chip">Spec ad</span><span class="chip">Paper cutout</span><span class="chip">After Effects</span></div>
+</a>
+<a class="card" href="pringles.html">
+<div class="thumb" style="aspect-ratio: 4 / 3; background: radial-gradient(circle at 50% 40%, #E2562F, #3D1206 72%)"><span class="lbl">Still · chips</span>
+<span class="arrow"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></span></div>
+<h3 style="margin: 22px 0 12px; font-weight: 500; font-size: 22px; letter-spacing: -0.015em">Pringles</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 6px"><span class="chip">Spec ad</span><span class="chip">Rigid body sim</span><span class="chip">Sound design</span></div>
+</a>
+<a class="card" href="nintendo-switch.html">
+<div class="thumb" style="aspect-ratio: 4 / 3; background: radial-gradient(circle at 50% 40%, #D9343B, #2A0A0C 72%)"><span class="lbl">Still · exploded view</span>
+<span class="arrow"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></span></div>
+<h3 style="margin: 22px 0 12px; font-weight: 500; font-size: 22px; letter-spacing: -0.015em">Nintendo Switch</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 6px"><span class="chip">Product viz</span><span class="chip">Hard surface</span><span class="chip">Comp</span></div>
+</a>
+<a class="card" href="apparition-of-joy.html">
+<div class="thumb" style="aspect-ratio: 4 / 3; background: radial-gradient(circle at 50% 40%, #4F7BC9, #0E1A33 72%)"><span class="lbl">Still · Apparition of Joy</span>
+<span class="arrow"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></span></div>
+<h3 style="margin: 22px 0 12px; font-weight: 500; font-size: 22px; letter-spacing: -0.015em">Apparition of Joy</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 6px"><span class="chip">Student film</span><span class="chip">SCAD</span></div>
+</a>
+<a class="card" href="pursuit-of-happiness.html">
+<div class="thumb" style="aspect-ratio: 4 / 3; background: radial-gradient(circle at 50% 40%, #5FA06A, #0F2613 72%)"><span class="lbl">Still · Pursuit of Happiness</span>
+<span class="arrow"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></span></div>
+<h3 style="margin: 22px 0 12px; font-weight: 500; font-size: 22px; letter-spacing: -0.015em">Pursuit of Happiness</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 6px"><span class="chip">Student film</span><span class="chip">SCAD</span></div>
+</a>
+</div>
+</section>
+
+<section id="reels" class="wrap" style="padding-bottom: 96px">
+<h2 style="margin: 0 0 28px; font-weight: 400; font-size: 44px; letter-spacing: -0.035em">Reels <span style="color: #6E6E6E">by discipline</span></h2>
+<div class="reels">
+<div class="card" style="padding: 14px 14px 20px">
+<div class="thumb" style="aspect-ratio: 16 / 9; background: #1A1A1A"><svg role="img" aria-label="Video" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#8A8A8A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg></div>
+<h3 style="margin: 16px 4px 2px; font-weight: 500; font-size: 18px">Character Animation</h3>
+<p style="margin: 0 4px; font-size: 14px; color: #8A8A8A">Acting, body mechanics, dialogue</p>
+</div>
+<div class="card" style="padding: 14px 14px 20px">
+<div class="thumb" style="aspect-ratio: 16 / 9; background: #1A1A1A"><svg role="img" aria-label="Video" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#8A8A8A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg></div>
+<h3 style="margin: 16px 4px 2px; font-weight: 500; font-size: 18px">Motion Design</h3>
+<p style="margin: 0 4px; font-size: 14px; color: #8A8A8A">Product spots, type, comp</p>
+</div>
+<div class="card" style="padding: 14px 14px 20px">
+<div class="thumb" style="aspect-ratio: 16 / 9; background: #1A1A1A"><svg role="img" aria-label="Video" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#8A8A8A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg></div>
+<h3 style="margin: 16px 4px 2px; font-weight: 500; font-size: 18px">Props &amp; Environments</h3>
+<p style="margin: 0 4px; font-size: 14px; color: #8A8A8A">Hard surface modeling, texturing</p>
+</div>
+</div>
+</section>
+
+<section id="about" style="padding: 0 16px 48px">
+<div style="max-width: 1180px; margin: 0 auto; border-radius: 40px; background: radial-gradient(600px 300px at 50% 0%, rgba(169,139,255,0.10), transparent 70%), #0F0F0F; border: 1px solid rgba(255,255,255,0.06); padding: 64px 24px 72px; text-align: center">
+<div class="fan">
+<div style="transform: rotate(-9deg) translateY(10px); background: linear-gradient(160deg, #3A2E66, #120F1F)"><span class="n">01</span><span class="t">Animator</span></div>
+<div style="transform: rotate(-3deg); background: linear-gradient(160deg, #4A4A4A, #141414); z-index: 1"><span class="n">02</span><span class="t">Modeler</span></div>
+<div style="transform: rotate(3deg); background: linear-gradient(160deg, #6B4A2E, #1A120B); z-index: 2"><span class="n">03</span><span class="t">Sim artist</span></div>
+<div style="transform: rotate(9deg) translateY(10px); background: linear-gradient(160deg, #2E4E6B, #0B131A); z-index: 3"><span class="n">04</span><span class="t">Compositor</span></div>
+</div>
+<p style="margin: 8px auto 0; font-size: 13px; color: #6E6E6E">Swap these for four renders or behind-the-scenes shots.</p>
+<h2 class="closer" style="margin: 36px auto 14px; max-width: 760px; font-weight: 400; font-size: 44px; line-height: 1.15; letter-spacing: -0.03em">One person, start to final. Performance first.</h2>
+<p style="margin: 0 auto; max-width: 620px; color: #A8A8A8">I graduated magna cum laude from SCAD in 2026. LAIKA's films are a big reason I care so much about performance. Based in Cincinnati, from Oklahoma City, open to relocating.</p>
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 12px; margin-top: 36px">
+<a class="pill" href="[LINKEDIN URL]" style="background: linear-gradient(180deg, #FFFFFF, #BEBEBE); color: #0A0A0A">LinkedIn</a>
+<a class="pill" href="mailto:belnwokolo05@gmail.com" style="background: #1A1A1A; border: 1px solid rgba(255,255,255,0.07)">Email</a>
+<a class="pill" href="https://youtube.com/@moustachecachestash000" style="background: #1A1A1A; border: 1px solid rgba(255,255,255,0.07)">YouTube</a>
+</div>
+</div>
+</section>
+
+<footer class="wrap" style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; padding-top: 24px; padding-bottom: 40px; font-size: 14px; color: #6E6E6E">
+<span>© 2026 Beluchi Nwokolo</span>
+<span>belnwokolo05@gmail.com · (301) 526-4386</span>
+</footer>
+
+</div>
+</body>
+</html>
